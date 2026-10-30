@@ -1,0 +1,150 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Factures fournisseurs · lot du 29 octobre 2026</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@0.453.0/dist/umd/lucide.min.js"></script>
+<style>
+:root{--or:#FD8103;--vert:#4FB58B;--vf:#1F6B4A;--vc:#E6F4EE;--rg:#D93B3B;--rc:#FFF1F0;--am:#B26A00;--ac:#FFF4E5;--enc:#22262B;--gr:#6B7280;--fil:#E8EAED;--fond:#F6F7F9}
+*{box-sizing:border-box}body{margin:0;font-family:Poppins,sans-serif;color:var(--enc);background:var(--fond)}
+header{background:linear-gradient(120deg,#22262B 0%,#3a2a14 100%);color:#fff;padding:28px 32px 70px}
+.top{display:flex;align-items:center;gap:14px;max-width:1240px;margin:auto}
+.logo{width:46px;height:46px;border-radius:12px;background:var(--or);display:grid;place-items:center}
+h1{font-size:22px;margin:0}header p{margin:2px 0 0;color:#d6d6d6;font-size:13px}
+main{max-width:1240px;margin:-50px auto 40px;padding:0 20px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.kpi{background:#fff;border-radius:16px;padding:18px;box-shadow:0 4px 14px rgba(0,0,0,.06);display:flex;gap:14px;align-items:center;cursor:pointer;border:2px solid transparent;transition:.15s}
+.kpi:hover{transform:translateY(-2px)}.kpi.on{border-color:var(--or)}
+.ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;flex:none}
+.kpi b{font-size:21px;display:block}.kpi span{font-size:12px;color:var(--gr)}
+.bar{height:14px;border-radius:8px;overflow:hidden;display:flex;margin:18px 0 6px;background:#eee}
+.leg{display:flex;gap:16px;font-size:12px;color:var(--gr);flex-wrap:wrap}.leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px}
+.alerte{margin:20px 0;background:var(--rc);border:1px solid #f5c2c0;border-left:6px solid var(--rg);border-radius:14px;padding:16px 18px;display:flex;gap:14px}
+.alerte h3{margin:0 0 4px;font-size:15px;color:var(--rg)}.alerte p{margin:0;font-size:13px}
+.filtres{position:sticky;top:0;z-index:5;background:var(--fond);padding:12px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{border:1px solid var(--fil);background:#fff;border-radius:999px;padding:7px 13px;font:500 13px Poppins;display:flex;gap:6px;align-items:center;cursor:pointer;color:var(--enc)}
+.chip.on{background:var(--enc);color:#fff;border-color:var(--enc)}.chip .n{background:rgba(0,0,0,.08);border-radius:9px;padding:0 7px;font-size:11px}.chip.on .n{background:rgba(255,255,255,.2)}
+select,input{font:13px Poppins;border:1px solid var(--fil);border-radius:999px;padding:8px 13px;background:#fff}
+input{min-width:220px}.sp{flex:1}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px;margin-top:6px}
+.card{background:#fff;border-radius:16px;box-shadow:0 2px 10px rgba(0,0,0,.05);overflow:hidden;display:flex;flex-direction:column;border-top:5px solid var(--c)}
+.ch{padding:16px 18px 10px;display:flex;gap:12px}
+.av{width:44px;height:44px;border-radius:12px;background:var(--bg);color:var(--c);display:grid;place-items:center;flex:none}
+.ch h4{margin:0;font-size:15px;line-height:1.3}.ch small{color:var(--gr);font-size:12px}
+.badge{display:inline-flex;gap:5px;align-items:center;font-size:11.5px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--bg);color:var(--c);margin-top:6px}
+.mt{padding:0 18px;display:flex;justify-content:space-between;align-items:end}
+.mt b{font-size:22px}.mt span{font-size:12px;color:var(--gr)}
+.pb{margin:8px 18px 0;height:7px;border-radius:5px;background:#eef0f2;overflow:hidden;display:flex}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;padding:12px 18px;font-size:12px}
+.facts div{display:flex;gap:6px;align-items:center;color:#444}.facts svg{width:14px;height:14px;color:var(--gr);flex:none}
+.motif{margin:0 18px;padding:10px 12px;border-radius:10px;background:var(--fond);font-size:12.5px;line-height:1.45}
+.q{margin:8px 18px 0;font-size:12.5px;display:flex;gap:6px;color:var(--rg)}
+.qui{margin:8px 18px 0;font-size:12.5px;display:flex;gap:6px;align-items:center}
+.qui b{background:var(--ac);color:var(--am);padding:2px 9px;border-radius:999px;font-weight:600}
+.act{margin-top:auto;padding:14px 18px;display:flex;gap:8px;flex-wrap:wrap;border-top:1px solid var(--fil);margin-top:14px}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:10px;font:600 13px Poppins;text-decoration:none;cursor:pointer;border:none}
+.btn.main{background:var(--or);color:#fff}.btn.main:hover{background:#e17000}
+.btn.sec{background:#fff;border:1px solid var(--fil);color:var(--enc);font-weight:500;font-size:12px;padding:7px 11px}
+.btn svg{width:16px;height:16px}
+h2{font-size:17px;margin:34px 0 12px;display:flex;gap:8px;align-items:center}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.tile{background:#fff;border-radius:14px;padding:14px;text-decoration:none;color:var(--enc);box-shadow:0 2px 8px rgba(0,0,0,.05);display:flex;flex-direction:column;gap:8px;font-size:12.5px;transition:.15s}
+.tile:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.09)}
+.tile .ico{width:38px;height:38px}.tile em{font-style:normal;color:var(--gr);font-size:11px}
+.hors{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.hc{background:#fff;border-radius:14px;padding:14px 16px;font-size:12.5px;border-left:5px solid var(--gr)}
+.hc h4{margin:0 0 6px;font-size:14px}
+.vide{grid-column:1/-1;text-align:center;padding:40px;color:var(--gr)}
+footer{text-align:center;color:var(--gr);font-size:12px;padding:20px}
+.modal{position:fixed;inset:0;background:rgba(20,22,26,.75);display:none;z-index:20;align-items:center;justify-content:center;padding:20px}
+.modal.on{display:flex}.mbox{background:#fff;border-radius:16px;width:min(1000px,100%);height:min(88vh,1100px);display:flex;flex-direction:column;overflow:hidden}
+.mh{padding:12px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--fil)}.mh b{flex:1;font-size:14px}
+.mbox iframe{flex:1;border:0;width:100%}
+@media(max-width:600px){.grid{grid-template-columns:1fr}input{min-width:0;flex:1}}
+</style></head><body>
+<header><div class="top"><div class="logo"><i data-lucide="receipt-text" color="#fff"></i></div>
+<div><h1>Factures fournisseurs de l'entreprise</h1><p>Lot reçu le 28/10/2026, traité le 29/10/2026 : 11 factures, 19 pièces. Version anonymisée.</p></div></div></header>
+<main>
+<div class="kpis" id="kpis"></div>
+<div class="bar" id="bar"></div>
+<div class="leg"><span><i style="background:var(--vert)"></i>Payable après validation</span><span><i style="background:var(--rg)"></i>Bloqué</span><span><i style="background:var(--or)"></i>À réclamer</span></div>
+<div class="alerte"><i data-lucide="shield-alert" color="#D93B3B" style="flex:none;width:30px;height:30px"></i><div>
+<h3>Fraude possible au changement de compte bancaire : Fournisseur 4</h3>
+<p>Nouveau compte annoncé par un numéro WhatsApp inconnu, lettre envoyée d'une adresse qui imite celle du fournisseur, acompte urgent réclamé sans facture. <b>Ne rien verser, ne modifier aucune fiche.</b> La facture se règle sur le compte déjà connu ; le nouveau compte se vérifie en appelant le fournisseur au numéro que l'entreprise avait déjà.</p></div></div>
+<div class="filtres" id="filtres"></div>
+<div class="grid" id="grid"></div>
+<h2><i data-lucide="folder-open"></i>Toutes les pièces du lot</h2>
+<div class="gal" id="gal"></div>
+<h2><i data-lucide="archive-x"></i>Hors lot : ni à payer, ni à enregistrer</h2>
+<div class="hors" id="hors"></div>
+<footer>Version anonymisée : noms et montants retirés, parts exprimées en pourcentage. Les pièces ne sont pas publiées. Aucun paiement, aucun envoi, aucune écriture n'a été fait.</footer>
+</main>
+<div class="modal" id="modal"><div class="mbox"><div class="mh"><i data-lucide="file-text"></i><b id="mt"></b>
+<button class="btn sec" onclick="fermer()"><i data-lucide="x"></i>Fermer</button></div><div id="mf" style="flex:1;display:grid;place-items:center;padding:30px;text-align:center;color:var(--gr);font-size:14px">Pièce non publiée dans la version anonymisée de cette page.</div></div></div>
+<script>
+const LI={"102":["110","200a"],"104":["108","111"],"202":["201","200a"],"203":["200b","101"],"204":["200c"],"101":["200b"],"110":["102"],"112":["200a"]};
+fetch('data.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+const P={};for(const k in d.pieces)P[k]={t:d.pieces[k][0],k:d.pieces[k][1]};
+const reg=d.registre.map(r=>({...r,_l:LI[r['N°']]||[],_q:r['Question']}));
+window.D={reg,P,hors:d.hors,S:d.synthese};demarrer()});
+function demarrer(){
+const pc=n=>(n||0).toLocaleString('fr-FR',{maximumFractionDigits:1})+' %';
+const ST={"Prête sur pièce":{c:"#1F6B4A",bg:"#E6F4EE",i:"circle-check-big",l:"Prête à payer"},"Payable en partie":{c:"#B26A00",bg:"#FFF4E5",i:"circle-dot-dashed",l:"Payable en partie"},"Bloquée":{c:"#D93B3B",bg:"#FFF1F0",i:"octagon-x",l:"Bloquée"},"Doublon écarté":{c:"#6B7280",bg:"#F0F1F3",i:"copy-x",l:"Doublon écarté"}};
+const KI={pdf:["file-text","#FD8103","#FFF4E5","Facture PDF"],img:["image","#007ABB","#E6F2FA","Photo / capture"],bc:["clipboard-list","#4FB58B","#E6F4EE","Bon de commande"]};
+const R=D.reg, tot=R.filter(r=>r['Statut']!=='Doublon écarté');
+const S=D.S,T=100,PAY=S['payable %'],REC=S['reclamer %'],BL=S['bloque %'];
+let F={st:'tous',fo:'',ech:'',q:''};
+document.getElementById('kpis').innerHTML=[
+['tous','layers','#22262B','#EEF0F2',pc(T),tot.length+' factures au total'],
+['Prête sur pièce','wallet','#1F6B4A','#E6F4EE',pc(PAY),'du lot payable après validation'],
+['Bloquée','octagon-x','#D93B3B','#FFF1F0',pc(BL),'du lot bloqué, '+R.filter(r=>r['Statut']==='Bloquée').length+' factures'],
+['Payable en partie','hand-coins','#B26A00','#FFF4E5',pc(REC),'du lot à réclamer aux fournisseurs'],
+['fraude','shield-alert','#D93B3B','#FFF1F0','n.c.','acompte WhatsApp à ne pas payer']
+].map(k=>`<div class="kpi" data-k="${k[0]}"><div class="ico" style="background:${k[3]};color:${k[2]}"><i data-lucide="${k[1]}"></i></div><div><b>${k[4]}</b><span>${k[5]}</span></div></div>`).join('');
+document.querySelectorAll('.kpi').forEach(e=>e.onclick=()=>{const k=e.dataset.k;if(k==='fraude'){document.querySelector('.alerte').scrollIntoView({behavior:'smooth'});return}F.st=k;rendre()});
+document.getElementById('bar').innerHTML=`<div style="width:${PAY/T*100}%;background:var(--vert)"></div><div style="width:${BL/T*100}%;background:var(--rg)"></div><div style="width:${REC/T*100}%;background:var(--or)"></div>`;
+const fos=[...new Set(R.map(r=>r['Fournisseur']))].sort();
+const echs=[...new Set(R.map(r=>r['Échéance']))].sort((a,b)=>a.split('/').reverse().join().localeCompare(b.split('/').reverse().join()));
+function filtres(){
+ const cnt=s=>s==='tous'?R.length:R.filter(r=>r['Statut']===s).length;
+ document.getElementById('filtres').innerHTML=
+ [['tous','list','Toutes'],['Prête sur pièce','circle-check-big','Prêtes'],['Payable en partie','circle-dot-dashed','En partie'],['Bloquée','octagon-x','Bloquées'],['Doublon écarté','copy-x','Doublon']].map(c=>`<button class="chip ${F.st===c[0]?'on':''}" data-s="${c[0]}"><i data-lucide="${c[1]}" style="width:15px;height:15px"></i>${c[2]}<span class="n">${cnt(c[0])}</span></button>`).join('')+
+ `<span class="sp"></span><select id="fo"><option value="">Tous les fournisseurs</option>${fos.map(x=>`<option ${F.fo===x?'selected':''}>${x}</option>`).join('')}</select>
+ <select id="ech"><option value="">Toutes les échéances</option>${echs.map(x=>`<option ${F.ech===x?'selected':''}>${x}</option>`).join('')}</select>
+ <input id="q" placeholder="Rechercher : n°, motif, personne…" value="${F.q}">`;
+ document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{F.st=b.dataset.s;rendre()});
+ document.getElementById('fo').onchange=e=>{F.fo=e.target.value;rendre()};
+ document.getElementById('ech').onchange=e=>{F.ech=e.target.value;rendre()};
+ const q=document.getElementById('q');q.oninput=e=>{F.q=e.target.value;cartes()};
+}
+window.voir=function(k){const p=D.P[k];document.getElementById('mt').textContent=p.t+' (pièce '+k+')';document.getElementById('modal').classList.add('on')}
+window.fermer=function(){document.getElementById('modal').classList.remove('on')}
+document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')fermer()};document.onkeydown=e=>{if(e.key==='Escape')fermer()};
+function cartes(){
+ const q=F.q.toLowerCase();
+ const L=R.filter(r=>(F.st==='tous'||r['Statut']===F.st)&&(!F.fo||r['Fournisseur']===F.fo)&&(!F.ech||r['Échéance']===F.ech)&&(!q||JSON.stringify(r).toLowerCase().includes(q)));
+ document.getElementById('grid').innerHTML=L.length?L.map(r=>{const s=ST[r['Statut']]||ST['Bloquée'];const t=100,p=r['Payable %'],a=r['À réclamer %'];
+ const canal=r['Canal'].includes('WhatsApp')?'message-circle':'mail';
+ return `<div class="card" style="--c:${s.c};--bg:${s.bg}">
+ <div class="ch"><div class="av"><i data-lucide="${s.i}"></i></div><div><h4>${r['Fournisseur']}</h4><small>Pièce ${r['N°']}, du ${r['Date']}</small><br><span class="badge"><i data-lucide="${s.i}" style="width:13px;height:13px"></i>${s.l}</span></div></div>
+ <div class="mt"><div><span>Part du lot</span><br><b>${r['Statut']==='Doublon écarté'?'n.c.':pc(r['Part du lot %'])}</b></div><div style="text-align:right"><span>Payable</span><br><b style="font-size:16px;color:${p?'#1F6B4A':'#D93B3B'}">${pc(p)}</b></div></div>
+ <div class="pb"><div style="width:${p/t*100}%;background:var(--vert)"></div><div style="width:${a/t*100}%;background:var(--or)"></div></div>
+ <div class="facts">
+ <div><i data-lucide="calendar-clock"></i>Échéance ${r['Échéance']}</div>
+ <div><i data-lucide="${canal}"></i>${r['Canal']}</div>
+ <div><i data-lucide="clipboard-list"></i>${r['Bon de commande']}</div>
+ <div><i data-lucide="truck"></i>${r['Bon de livraison']}</div>
+ <div><i data-lucide="badge-check"></i>Facture normalisée : ${r['Facture électronique (FNE)']}</div>
+ <div><i data-lucide="landmark"></i>${r['Compte bancaire sur la facture']}</div>
+ </div>
+ <div class="motif">${r['Motif']}</div>
+ ${r._q?`<div class="q"><i data-lucide="message-circle-question" style="width:16px;height:16px;flex:none"></i><span>${r._q}</span></div>`:''}
+ ${r['Qui agit']?`<div class="qui"><i data-lucide="user-round-check" style="width:16px;height:16px"></i>Qui débloque : <b>${r['Qui agit']}</b></div>`:''}
+ <div class="act"><button class="btn main" onclick="voir('${r['N°']}')"><i data-lucide="eye"></i>Voir la facture</button>
+ ${r._l.map(k=>`<button class="btn sec" onclick="voir('${k}')"><i data-lucide="${KI[D.P[k].k][0]}"></i>${D.P[k].t}</button>`).join('')}</div></div>`}).join(''):'<div class="vide">Aucune facture ne correspond à ces filtres.</div>';
+ lucide.createIcons();
+}
+function rendre(){document.querySelectorAll('.kpi').forEach(e=>e.classList.toggle('on',e.dataset.k===F.st));filtres();cartes()}
+document.getElementById('gal').innerHTML=Object.entries(D.P).map(([k,p])=>{const c=KI[p.k];return `<a class="tile" href="#" onclick="voir('${k}');return false"><div class="ico" style="background:${c[2]};color:${c[1]}"><i data-lucide="${c[0]}"></i></div><b>${p.t}</b><em>${c[3]} · pièce ${k}</em></a>`}).join('');
+document.getElementById('hors').innerHTML=D.hors.map(h=>`<div class="hc"><h4>${h['Pièce']}</h4><div style="color:var(--gr);margin-bottom:6px">${h['Émetteur']}</div><div>${h["Ce qu'elle contient"]}</div><div style="margin:8px 0;font-weight:600">${h['Traitement']}</div><button class="btn sec" onclick="voir('${h['N°']}')"><i data-lucide="eye"></i>Voir la pièce</button></div>`).join('');
+rendre();}
+</script></body></html>
